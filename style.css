@@ -1,0 +1,350 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.Navbar {
+    background-color: transparent;
+    color: rgb(22, 22, 22) ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ 
+
+    align-items: center;
+}
+.Navbar h2{
+    font-weight: 900;
+    font-family: cursive;
+    
+   
+}
+.Navbar button{
+   border: none;
+   border-radius: 2px;
+   background-color: rgb(200, 255, 0);
+   color: rgb(22, 22, 22) ;
+    
+}
+.link{
+    gap: 10;
+}
+.link a{
+   text-decoration: none;
+   color: rgb(22, 22, 22) ;
+   padding-right: 10px;
+   font-size: 18px;
+   font-family: cursive;
+   
+}
+.link button{
+    width: 70px;
+    height:44px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+   
+}
+.tombol button{
+background-color: rgb(200, 255, 0);
+height: 70px;
+width: 200px;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+bottom: 30px;
+left: 40%;
+position:absolute;
+font-family: cursive;
+text-decoration: none;
+font-weight: bold;
+}
+.tombol button:hover{
+    color: rgb(200, 255, 0);
+    transition: 0.7s;
+    background-color:transparent;
+    border: 1px;
+    box-shadow:0px 0px 5px 2px rgb(200, 255, 0);
+}
+.index{
+    background-image: url(asset/19.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color:white
+    
+}
+.bg{
+     background-image: url(asset/anime1.png );
+     height: 100vh;
+      background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-color: transparent;
+}
+.kelas {
+  padding-right: 30px;
+  padding-left: 30px;
+ display: flex;
+ flex-direction: column;
+background-color: transparent;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+}
+
+.ais .kiri{
+    margin-right: 30px;
+}
+.ais .kanan{
+    margin-left: 30px;
+}
+.ais{
+    position: absolute;
+    top: 20%;
+
+}
+.ais img{
+    height: 100px ;
+    width: 100px;
+    filter: drop-shadow(0px 0px 2px rgb(200, 255, 0));
+}
+.Navbar button:hover{
+    color: rgb(200, 255, 0);
+    transition: 0.7s;
+    background-color:transparent;
+    border: 1px;
+    box-shadow:0px 0px 5px 2px rgb(200, 255, 0);
+}
+.link a:hover{
+    color: rgb(200, 255, 0);
+}
+
+.sidebar{
+    background-color:rgba(0, 0, 0, 0.596) ;
+    height: 400px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    flex-direction: column-reverse;
+    z-index: 100;
+}
+.sidebar a{
+    text-decoration: none;
+    padding-top: 30px;
+    color: white;
+    font-family: cursive;
+}
+.sidebar a:hover{
+    color:rgb(200, 255, 0);
+}
+.batas{
+    width: 70%;
+    height: 10px;
+    background-color:black;
+    box-shadow:0px 0px 5px 0px rgb(200, 255, 0);
+}
+.Tentang{
+    margin: 0;
+    height: 700px;
+    color:  rgb(200, 255, 0);
+    font-family: cursive;
+    font-size: 30px;
+    background-image: url(asset/2.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.kotakT{
+    background-color: rgb(22, 22, 22) ;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:3px 2px 0px 2px rgb(200, 255, 0);
+    height: 350px;
+    width: 65%;
+    border-radius: 30px;
+    z-index: 100;
+    text-align: center;
+   
+}
+.uu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: -30px;
+    position: relative;
+}
+.ais2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+.ais2 img{
+    height: 100px ;
+    width: 100px;
+}
+.Service{
+    background-color:rgb(200, 255, 0);
+    background-image: url(asset/Frame\ 13883.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    font-size: 30px;
+    font-family: cursive;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+.ServiceK{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+.ServiceL{
+    height: 300px;
+    width:30%;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.ServiceR{
+    height: 300px;
+    width:30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.Contact{
+    background-image: url(asset/aa.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: rgb(200, 255, 0);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    font-family: cursive;
+}
+.Contact h1{
+    margin: 0;
+    padding: 0;
+}
+
+.part{
+     height:91%;
+     width: 700px;
+    display: flex;
+    margin: auto;
+}
+.koki{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.coga{
+    background-image: url(asset/CHARACTER.png );
+    background-position: bottom;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 450px;
+}
+.koka{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sosmed{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 100px;
+    
+}
+.sosmed img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 22%;
+   
+
+}
+.footer{
+    background-color:  rgb(200, 255, 0);
+    height: 270px;
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.line{
+    border-top: 1px solid rgb(22, 22, 22) ;
+    margin-top: 30px;
+}
+.fot{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fosatu, .fodua, .fotiga{
+    text-align: start;
+    height: 150px;
+    width: 300px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    
+}
+
+@media screen and (max-width: 768px){
+    .NavbarMenu{
+        display: none;
+    }
+    .list{
+        display: block;
+    }
+    .sidebar a{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sidebar {
+        position: absolute;}
+    
+}
+@media screen and (min-width: 768px){
+    .list{
+        display: none;
+    }
+    #sidebar{
+        display: none;
+    }
+    
+}
+.fix1{
+    height: 600px;
+    width: 100%;
+}
